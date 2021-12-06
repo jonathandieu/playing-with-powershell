@@ -4,3 +4,10 @@
 #
 # cmdlet name: get-datemessage.ps1
 #
+write-host " "
+write-host "Welcome to JHD-F21-S22-1" -ForegroundColor White -BackgroundColor Red
+write-host " "
+write-host "Today is: " -ForegroundColor Red -NoNewline
+$date = get-date
+write-host $date -ForegroundColor Yellow
+write-host " "
